@@ -13,3 +13,23 @@ npm init
 ```
 npm install express
 ```
+
+## Hello World
+```
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+```
+
+Para correr la aplicación
+```
+node app.js
+```
