@@ -1,0 +1,27 @@
+{
+  "name": "simple-express",
+  "version": "1.0.0",
+  "description": "Pasos para la instalación de express ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sansus3/simple-express.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "npm"
+  ],
+  "author": "Xurxo González Tenreiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sansus3/simple-express/issues"
+  },
+  "homepage": "https://github.com/sansus3/simple-express#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
